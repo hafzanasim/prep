@@ -13,7 +13,8 @@ st.markdown("Paste a clinical report to extract tumor size, stage, and diagnosis
 report_text = st.text_area("Paste Clinical Report", height=250)
 
 # Extraction method selector
-method = st.radio("Extraction Method", ["regex", "huggingface"], index=1)
+method = st.radio("Extraction Method", ["regex"], index=0)
+
 
 # On button click
 if st.button("Extract & Predict"):
