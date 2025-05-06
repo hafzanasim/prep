@@ -1,0 +1,10 @@
+Patient ID: 12345
+Date: 2023-06-02
+Findings: There is a 3.5 cm mass in the upper left lobe. No lymph node involvement noted. Possible stage IIA.
+Diagnosis: Suspected non-small cell lung carcinoma.
+---
+
+Patient ID: 67890
+Date: 2023-05-15
+Findings: Enlarged lymph nodes. Tumor size 5.1 cm. Consider stage IIIA. PET scan recommended.
+Diagnosis: Squamous cell carcinoma.
