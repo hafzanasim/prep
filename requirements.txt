@@ -5,3 +5,4 @@ scikit-learn
 google-generativeai
 langchain
 langchain-google-genai
+openai>=1.2.0

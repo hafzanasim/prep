@@ -47,7 +47,7 @@ def _safe_generate_plan(text):
 tools = [
     Tool(
         name="ExtractReport",
-        func=lambda text: extract_features_from_text(text, method="huggingface"),
+        func=lambda text: extract_features_from_text(text, method="gemini"),
         description="Extract tumor size, stage, and diagnosis from a clinical report"
     ),
     Tool(

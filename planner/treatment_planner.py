@@ -5,7 +5,7 @@ import google.generativeai as genai
 genai.configure(api_key=os.getenv("GEMINI_API_KEY") or "AIzaSyAZ5BSEUTGEOrKeX2AIUdD-CIDuH5lTB1U")
 
 # Load the Gemini model
-model = genai.GenerativeModel("gemini-2.0-flash")
+model = genai.GenerativeModel("gemini-2.5-pro-exp-03-25")
 
 def generate_treatment_plan(tumor_size_cm, stage, diagnosis):
     if not tumor_size_cm or not stage or diagnosis == "N/A":
@@ -32,8 +32,13 @@ def generate_treatment_plan(tumor_size_cm, stage, diagnosis):
         return f"Gemini API error: {e}"
 
 def rule_based_fallback(tumor_size_cm, stage, diagnosis):
-    stage = stage.upper()
-    diag = diagnosis.lower()
+    try:
+        tumor_size_cm = float(tumor_size_cm)
+    except (TypeError, ValueError):
+        tumor_size_cm = 0  # default fallback if parsing fails
+
+    stage = (stage or "").upper()
+    diag = (diagnosis or "").lower()
 
     if tumor_size_cm >= 5 or stage.startswith("III"):
         return f"Recommend chemotherapy and radiation therapy for {diag}. 🛠"

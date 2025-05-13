@@ -1,10 +1,108 @@
-Patient ID: 12345
-Date: 2023-06-02
-Findings: There is a 3.5 cm mass in the upper left lobe. No lymph node involvement noted. Possible stage IIA.
-Diagnosis: Suspected non-small cell lung carcinoma.
+Name: Jane Doe, 57F. EMPI: 123456, CMRN: A001, FIN: F789, Account: ACC999. 
+Patient presents with a 5.1 cm mass in the right lung. Stage IIIB likely. 
+Diagnosis: Non-small cell lung cancer. 
+HR: 92, Temp: 98.7F, Pulse: 88. Blood Sugar: 105. 
+History of smoking and chronic bronchitis. 
+Symptoms include shortness of breath, fatigue. 
+Currently on Metformin and Albuterol. 
+MRI shows a growing right lung lesion. Prior CT showed a 4.5 cm lesion. 
+Labs are within normal limits.
+
 ---
 
-Patient ID: 67890
-Date: 2023-05-15
-Findings: Enlarged lymph nodes. Tumor size 5.1 cm. Consider stage IIIA. PET scan recommended.
-Diagnosis: Squamous cell carcinoma.
+Name: Rajiv Patel, 63M. EMPI: 987654, CMRN: B402, FIN: F112, Account: ACC321. 
+A 4.2 cm lesion found in the sigmoid colon. Stage II suspected. 
+Diagnosis: Colon adenocarcinoma. 
+HR: 78, Temp: 99.1F, Pulse: 80. Glucose: 112. 
+Medical history includes Type 2 diabetes and hypertension. 
+Complaints of abdominal pain and weight loss. 
+Prescribed Metformin and Losartan. 
+CT indicates thickening of sigmoid colon wall. Previous scan showed diverticulosis.
+
+--
+
+Name: Lisa Kim, 45F. EMPI: LK5678, CMRN: Z003, FIN: F555, Account: ACC678. 
+MRI of the brain reveals a 2.8 cm mass in the left temporal lobe. Stage I. 
+Diagnosis: Glioblastoma. 
+Temp: 98.2F, HR: 84, Pulse: 86. 
+Medical history includes migraines. 
+Presenting with seizures and confusion. 
+On Levetiracetam and steroids. 
+Findings show no signs of hemorrhage. Previous MRI was unremarkable.
+
+--
+
+Name: George Wright, 70M. EMPI: GW2020, CMRN: Y900, FIN: F333, Account: ACC445. 
+A 3.0 cm nodule detected in the prostate gland. Stage IIA confirmed. 
+Diagnosis: Prostate adenocarcinoma. 
+HR: 72, Pulse: 70, Temp: 98.6F. Blood Sugar: 108. 
+History of BPH and elevated PSA levels. 
+Symptoms include urinary retention. 
+Taking Tamsulosin. 
+Ultrasound reveals heterogeneous prostate tissue. Prior scan showed similar findings.
+
+--
+
+Name: Maria Lopez, 60F. EMPI: ML3322, CMRN: C778, FIN: F998, Account: ACC556. 
+CT scan shows a 5.7 cm lesion in the liver. Stage IIIB. 
+Diagnosis: Hepatocellular carcinoma. 
+Pulse: 90, HR: 91, Temp: 99.4F. Blood Sugar: 135. 
+Medical history includes hepatitis C and cirrhosis. 
+Presenting with jaundice and fatigue. 
+Prescribed Sorafenib. 
+Findings reveal vascular invasion. Prior CT showed lesion was 4.8 cm.
+
+--
+
+Name: Angela Reed, 50F. EMPI: AR5050, CMRN: C150, FIN: F888, Account: ACC303.
+A 2.9 cm mass detected in the left breast. Stage IIA suspected.
+Diagnosis: Invasive ductal carcinoma.
+HR: 76, Pulse: 74, Temp: 98.5F. Glucose: 98.
+Medical history includes fibrocystic breast changes.
+Symptoms include breast tenderness and palpable lump.
+Prescribed Tamoxifen.
+Ultrasound shows irregular margins; prior mammogram showed dense tissue.
+
+--
+
+Name: Imran Shah, 39M. EMPI: IS3901, CMRN: T402, FIN: F201, Account: ACC420.
+Thyroid ultrasound shows a 1.8 cm hypoechoic nodule on the right lobe. Stage I.
+Diagnosis: Papillary thyroid carcinoma.
+HR: 70, Pulse: 72, Temp: 98.2F. Blood Sugar: 101.
+No significant medical history.
+Symptoms include neck fullness and mild dysphagia.
+Not on medications.
+Previous scans were unremarkable.
+
+--
+
+Name: Fatima Noor, 66F. EMPI: FN6642, CMRN: O777, FIN: F302, Account: ACC119.
+A 6.3 cm complex cystic mass found in left ovary. Stage IIIC suspected.
+Diagnosis: High-grade serous ovarian carcinoma.
+Pulse: 92, HR: 90, Temp: 99.0F. Blood Sugar: 114.
+History of endometriosis and hysterectomy.
+Complains of bloating and early satiety.
+Prescribed Carboplatin and Paclitaxel.
+CT shows peritoneal spread. Previous scan revealed bilateral ovarian cysts.
+
+--
+
+Name: Marcus Hill, 58M. EMPI: MH5821, CMRN: B888, FIN: F610, Account: ACC212.
+Cystoscopy reveals a 3.5 cm lesion in the bladder wall. Stage II.
+Diagnosis: Urothelial carcinoma.
+HR: 82, Pulse: 84, Temp: 98.9F. Glucose: 109.
+History of smoking and recurrent UTIs.
+Symptoms include hematuria and pelvic discomfort.
+On Ciprofloxacin previously; now prescribed Gemcitabine.
+Ultrasound confirms wall thickening. Prior imaging showed mild inflammation.
+
+--
+
+Name: Eleanor Price, 72F. EMPI: EP7200, CMRN: P630, FIN: F789, Account: ACC890.
+CT shows a 4.9 cm mass in the pancreatic head. Stage III.
+Diagnosis: Pancreatic adenocarcinoma.
+Pulse: 88, HR: 85, Temp: 99.2F. Blood Sugar: 143.
+History of chronic pancreatitis and Type 2 diabetes.
+Symptoms include jaundice and back pain.
+Prescribed FOLFIRINOX regimen.
+MRI reveals bile duct obstruction. Prior endoscopy showed duodenal narrowing.
